@@ -17,6 +17,13 @@ public class Adicao {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Informe o primeiro número: ");
+        Scanner entrada = new Scanner(System.in);
+        double primNum = Double.parseDouble(entrada.next());
+        System.out.println("Informe o segundo número: ");
+        double segNum = Double.parseDouble(entrada.next());
+        System.out.println("A soma é: " + (primNum + segNum));
+        entrada.close();
     }
     
 }
